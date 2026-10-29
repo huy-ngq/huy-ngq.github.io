@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Quoc Huy Nguyen (Nguyễn Quốc Huy) — Homepage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Quoc Huy Nguyen">
+  <meta name="description"
+    content="Quoc Huy Nguyen (Nguyễn Quốc Huy) — Computer Science Honors student at HCMUT – VNU-HCM, working on 3D Vision, Monocular & Cross-Viewpoint 3D Object Detection, and Spatial Intelligence.">
+  <meta name="keywords"
+    content="Quoc Huy Nguyen, Nguyễn Quốc Huy, 3D Vision, Spatial Intelligence, Monocular 3D Object Detection, Viewpoint-Agnostic 3D Detection, Cross-Sensor 3D Detection, HCMUT, AITech Lab, MonoBEN">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap">
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎓</text></svg>">
+
+  <script>
+    (function () {
+      const t = localStorage.getItem('theme') || 'light';
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+</head>
+
+<body>
+
+  <header class="nav">
+    <div class="nav-inner">
+      <a class="nav-brand" href="#top">Quoc Huy Nguyen</a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#news">News</a>
+        <a href="#publications">Publications</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+      </nav>
+      <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+        <i class="fas fa-moon" aria-hidden="true"></i>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ───────── ABOUT ───────── -->
+    <section id="about" class="about">
+      <div class="about-text">
+        <h1>Quoc Huy Nguyen <span class="zh">Nguyễn Quốc Huy</span></h1>
+        <p class="role">B.Sc. in Computer Science (Honors Program) · HCMUT – VNU-HCM</p>
+
+        <p>
+          I am a final-year undergraduate student in the <strong>Computer Science Honors Program</strong> at
+          <a href="https://hcmut.edu.vn/" target="_blank" rel="noopener noreferrer">Ho Chi Minh City University of Technology (HCMUT) – VNU-HCM</a>
+          (GPA: <strong>3.8 / 4.0</strong>), where I work as an Undergraduate Researcher at
+          <strong>AITech Lab</strong> advised by Dr. Duc Dung Nguyen. My research focuses on
+          <strong>3D Vision</strong> and <strong>Spatial Intelligence</strong>.
+        </p>
+        <p>
+          Currently, I am conducting joint research in collaboration with
+          <strong>AITech Lab (HCMUT)</strong> and <strong>AISIN Corporation</strong>,
+          working with Dr. Duc Dung Nguyen and Dr. Truong Vinh Truong Duy on
+          <strong>viewpoint-aware and viewpoint-agnostic 3D object detection</strong> — developing unified 3D perception models
+          capable of detecting objects across diverse camera mounting perspectives, including
+          <strong>vehicle-side</strong>, <strong>road/infrastructure-side</strong>, and <strong>drone-side</strong> viewpoints.
+          In Summer 2026, I also worked as a <strong>Computer Vision Intern</strong> at
+          <strong>Anh Khoi Technology</strong>, building multi-camera 3D calibration systems.
+        </p>
+        <p class="callout">
+          <i class="fas fa-briefcase" aria-hidden="true"></i>
+          <span>I am open to <strong>research collaborations, graduate opportunities, and AI / Computer Vision engineering roles</strong>.
+          Feel free to <a href="mailto:benvanavietnam@gmail.com">reach out</a>!</span>
+        </p>
+
+        <ul class="social" aria-label="Contact and social links">
+          <li><a href="files/cv.pdf" target="_blank" rel="noopener noreferrer" title="Curriculum Vitae (PDF)"><i class="fas fa-file-alt"></i><span>CV</span></a></li>
+          <li><a href="mailto:benvanavietnam@gmail.com" title="Email"><i class="fas fa-envelope"></i><span>Email</span></a></li>
+          <li><a href="https://github.com/huy-ngq" target="_blank" rel="noopener noreferrer" title="GitHub"><i class="fab fa-github"></i><span>GitHub</span></a></li>
+          <li><a href="https://www.linkedin.com/in/huy-nguyen-quoc-44411b305/" target="_blank" rel="noopener noreferrer" title="LinkedIn"><i class="fab fa-linkedin"></i><span>LinkedIn</span></a></li>
+          <li><a href="tel:+84779055572" title="Phone: (+84) 77 90 555 72"><i class="fas fa-phone"></i><span>(+84) 77 90 555 72</span></a></li>
+        </ul>
+      </div>
+
+      <div class="about-photo">
+        <img src="images/avatar.jpg" alt="Portrait of Quoc Huy Nguyen" width="640" height="960">
+      </div>
+    </section>
+
+    <!-- ───────── RESEARCH ───────── -->
+    <section id="research" class="section">
+      <h2>Research</h2>
+      <p>
+        My long-term goal is to build computational models that
+        <strong>perceive, reason about, and predict</strong> the physical 3D world.
+        Concretely, I work on:
+      </p>
+      <ul class="interests">
+        <li>
+          <strong>3D Vision.</strong>
+          Monocular 3D object detection, 3D understanding, and multi-modal 3D perception for autonomous driving and beyond.
+        </li>
+        <li>
+          <strong>Spatial Intelligence.</strong>
+          Spatial reasoning, 3D grounding, and geometry-aware representations in vision-language models.
+        </li>
+      </ul>
+    </section>
+
+    <!-- ───────── NEWS ───────── -->
+    <section id="news" class="section">
+      <h2>News</h2>
+      <ul class="news-list">
+        <li>
+          <time>2026.10.25</time>
+          <p>Our paper <strong>MonoBEN</strong> (<em>Monocular 3D Object Detection Beyond Fixed Camera iNtrinsics</em>) has been accepted at <span class="venue">IEEE RIVF 2026</span>! <span class="news-new">New</span></p>
+        </li>
+        <li>
+          <time>2026.06</time>
+          <p>Joined <strong>Anh Khoi Technology</strong> as a <strong>Computer Vision Intern</strong> for Summer 2026, working on multi-camera 3D calibration.</p>
+        </li>
+        <li>
+          <time>2025.08</time>
+          <p>Started joint research collaboration with <strong>AITech Lab (HCMUT)</strong> and <strong>AISIN Corporation</strong> on <strong>cross-sensor and viewpoint-agnostic visual 3D object detection</strong> across diverse camera setups and viewpoints.</p>
+        </li>
+        <li>
+          <time>2025.01</time>
+          <p>Joined <strong>AITech Lab (HCMUT – VNU-HCM)</strong> as an Undergraduate Researcher advised by Dr. Duc Dung Nguyen.</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ───────── PUBLICATIONS ───────── -->
+    <section id="publications" class="section">
+      <h2>Selected Publications</h2>
+
+      <ul class="pubs">
+
+        <li class="pub">
+          <a class="pub-figure" href="images/monoben_overview.png" data-lightbox>
+            <img src="images/monoben_overview.png" alt="MonoBEN architecture overview figure">
+          </a>
+          <div class="pub-body">
+            <p class="pub-title">MonoBEN: Monocular 3D Object Detection Beyond Fixed Camera iNtrinsics</p>
+            <p class="pub-authors">
+              <strong>Quoc Huy Nguyen</strong>,
+              Chi Dai Le,
+              Duc Dung Nguyen<span class="equal">*</span>
+            </p>
+            <p class="pub-venue">
+              <span class="venue">IEEE RIVF 2026</span>
+              <span class="highlight-marker">Accepted</span>
+            </p>
+            <ul class="pub-desc">
+              <li>Formulates camera intrinsics as a continuous geometric manifold via a lightweight MLP over log-normalized focal parameters (<em>r<sub>x</sub> = f<sub>x</sub>/W</em>, <em>r<sub>y</sub> = f<sub>y</sub>/H</em>), hierarchically conditioning visual features and object queries without external LLMs, vision-language encoders, or discrete lookup tables.</li>
+              <li>Surpasses both paper-reported MonoIA (<strong>22.77% vs. 22.08% AP<sub>3D</sub></strong>, peaking at <strong>24.83%</strong> at 850 px) across 9 interpolated focal lengths and reproduced MonoIA<sup>&dagger;</sup> on out-of-range extrapolated focals (<strong>21.01% vs. 18.75%</strong> at 600 px; <strong>19.85% vs. 19.16%</strong> extrapolated average), achieving <strong>21.97% average AP<sub>3D</sub></strong> across all 17 focal lengths (600–1400 px).</li>
+              <li>Acts as a geometry-aware regularizer on standard fixed-camera KITTI, improving over its base detector MonoCoP in <strong>10 of 12 metrics</strong> (+1.06 Easy AP<sub>3D</sub> and <strong>37.69% Easy AP<sub>BEV</sub></strong> on Test; <strong>24.20% Moderate AP<sub>3D</sub></strong> on Val) while maintaining parameter and FLOP parity (<strong>42.37M params, 71.77 GFLOPs</strong>) with zero added inference overhead.</li>
+            </ul>
+            <p class="pub-links">
+              <a class="pub-btn" href="https://huy-ngq.github.io/MonoBEN-gh-page/" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Project Page</a>
+              <span class="pub-btn is-disabled" title="Camera-ready PDF will be uploaded after final submission"><i class="fas fa-file-pdf"></i>Paper (Camera-Ready Soon)</span>
+            </p>
+          </div>
+        </li>
+
+      </ul>
+      <p class="pub-footnote">* denotes corresponding author.</p>
+    </section>
+
+    <!-- ───────── PROJECTS ───────── -->
+    <section id="projects" class="section">
+      <h2>Selected Projects</h2>
+
+      <ul class="pubs">
+
+        <li class="pub">
+          <a class="pub-figure cover" href="images/visiondrive3d_teaser.png" data-lightbox>
+            <img src="images/visiondrive3d_teaser.png" alt="VisionDrive3D synthetic RGB, depth, instance segmentation, and 3D bounding boxes">
+          </a>
+          <div class="pub-body">
+            <p class="pub-title">VisionDrive3D: Synthetic Driving-Scene Data &amp; Perception Evaluation</p>
+            <p class="pub-venue">
+              <span class="context-tag">Computer Graphics Course Project</span>
+              <span class="venue">OpenGL · Synthetic Data · 2D/3D Perception</span>
+            </p>
+            <ul class="pub-desc">
+              <li>Built an <strong>OpenGL driving-scene simulator</strong> with configurable traffic flows, urban layouts, and camera viewpoints to synthesize synchronized <strong>RGB frames, depth maps, instance-segmentation masks, and 2D/3D bounding boxes</strong>.</li>
+              <li>Automated <strong>COCO/YOLO/KITTI annotation export</strong> pipelines, deterministic train/val/test dataset splits, and headless batch rendering for reproducible benchmark generation.</li>
+              <li>Benchmarked <strong>YOLO26</strong> and <strong>RT-DETRv2-S</strong> object detection models on synthetic driving scenes, analyzing mAP, inference throughput, and accuracy–latency trade-offs.</li>
+            </ul>
+            <p class="pub-links">
+              <a class="pub-btn" href="https://huy-ngq.github.io/VisionDrive3D/" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Project Page</a>
+              <a class="pub-btn" href="https://github.com/huy-ngq/VisionDrive3D" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i>Code</a>
+              <a class="pub-btn" href="https://huggingface.co/datasets/BenBunBo/VisionDrive3D" target="_blank" rel="noopener noreferrer"><i class="fas fa-database"></i>Dataset</a>
+            </p>
+          </div>
+        </li>
+
+        <li class="pub">
+          <a class="pub-figure" href="images/wiener_flow.png" data-lightbox>
+            <img src="images/wiener_flow.png" alt="Unsupervised Bayesian Wiener-Hunt Deconvolution via MCMC Gibbs Sampler">
+          </a>
+          <div class="pub-body">
+            <p class="pub-title">Bayesian Wiener-Hunt Deconvolution: Traditional Image Super-Resolution &amp; Restoration</p>
+            <p class="pub-venue">
+              <span class="context-tag">Image Processing &amp; Computer Vision Project</span>
+              <span class="venue">Bayesian MAP · MCMC Gibbs Sampler · FFT</span>
+            </p>
+            <ul class="pub-desc">
+              <li>Implemented an <strong>unsupervised Wiener-Hunt deconvolution</strong> framework in NumPy and SciPy, overcoming the classical Wiener filter's reliance on manual tuning of the signal-to-noise ratio constant <em>K</em>.</li>
+              <li>Formulated image restoration in a <strong>Bayesian Maximum A Posteriori (MAP)</strong> framework with a 2D Laplacian regularization operator in the Fourier domain to preserve structural edges while suppressing high-frequency noise.</li>
+              <li>Developed an <strong>MCMC (Gibbs Sampler)</strong> leveraging conjugate <strong>Gamma distributions</strong> to dynamically sample noise precision (<em>&gamma;<sub>&epsilon;</sub></em>) and prior precision (<em>&gamma;<sub>1</sub></em>), computing the posterior mean via accelerated <code>rFFTn/irFFTn</code> operations.</li>
+            </ul>
+            <p class="pub-links">
+              <a class="pub-btn" href="https://github.com/caoTayTang/image_super_resolution_traditional_cv" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i>Code</a>
+              <a class="pub-btn" href="https://huggingface.co/spaces/mastershlfu/IBP" target="_blank" rel="noopener noreferrer"><i class="fas fa-play-circle"></i>Interactive Demo</a>
+              <a class="pub-btn" href="https://arxiv.org/pdf/1004.5538" target="_blank" rel="noopener noreferrer"><i class="fas fa-book-open"></i>Theoretical Basis (arXiv)</a>
+            </p>
+          </div>
+        </li>
+
+        <li class="pub">
+          <a class="pub-figure cover" href="images/text_classify_teaser.png" data-lightbox>
+            <img src="images/text_classify_teaser.png" alt="RealEstateText BERT and DistilBERT classification teaser">
+          </a>
+          <div class="pub-body">
+            <p class="pub-title">RealEstateText: Transformer-Based Text Classification</p>
+            <p class="pub-venue">
+              <span class="context-tag">Deep Learning Course Project</span>
+              <span class="venue">PyTorch · BERT · DistilBERT</span>
+            </p>
+            <ul class="pub-desc">
+              <li>Fine-tuned <strong>BERT</strong> and <strong>DistilBERT</strong> models in PyTorch across 13 experimental training configurations and hyperparameter settings.</li>
+              <li>Achieved <strong>90.94% accuracy</strong> and <strong>80.88% Macro F1-score</strong> on real-estate text classification benchmarks, with an interactive web application deployed on Hugging Face Spaces.</li>
+            </ul>
+            <p class="pub-links">
+              <a class="pub-btn" href="https://caotaytang.github.io/DL_page/assignment1_text.html" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i>Project Page</a>
+              <a class="pub-btn" href="https://huggingface.co/spaces/l3en10/DL_BTL1_Text" target="_blank" rel="noopener noreferrer"><i class="fas fa-play-circle"></i>Live Demo</a>
+            </p>
+          </div>
+        </li>
+
+      </ul>
+    </section>
+
+    <!-- ───────── EXPERIENCE ───────── -->
+    <section id="experience" class="section">
+      <h2>Research &amp; Industry Experience</h2>
+      <ul class="timeline">
+
+        <li class="is-current">
+          <time>Aug. 2025 – Present</time>
+          <div class="tl-body">
+            <p class="tl-title">Undergraduate Researcher</p>
+            <p class="tl-org">
+              <strong>AITech Lab (HCMUT)</strong> &times; <strong>AISIN Corporation</strong>
+            </p>
+            <p class="tl-note">Advisors: Dr. Duc Dung Nguyen, Dr. Truong Vinh Truong Duy</p>
+            <ul class="tl-bullets">
+              <li>Researching <strong>viewpoint-aware and viewpoint-agnostic 3D object detection</strong>, designing unified 3D detection models capable of generalizing across <strong>vehicle-side</strong>, <strong>road/infrastructure-side</strong>, and <strong>drone-side</strong> camera perspectives.</li>
+              <li>Investigating <strong>cross-sensor and cross-dataset visual 3D detection</strong> (building upon Cross-Dataset Sensor Alignment) to align camera intrinsics, extrinsics, and ego-coordinate frames across diverse autonomous driving and urban perception platforms.</li>
+            </ul>
+          </div>
+        </li>
+
+        <li>
+          <time>Jun. 2026 – Aug. 2026</time>
+          <div class="tl-body">
+            <p class="tl-title">Computer Vision Intern</p>
+            <p class="tl-org"><strong>Anh Khoi Technology</strong> <span class="tl-sep">·</span> Ho Chi Minh City, Vietnam</p>
+            <ul class="tl-bullets">
+              <li>Built an <strong>end-to-end multi-camera 3D calibration pipeline</strong> leveraging human-motion videos to estimate camera intrinsic/extrinsic parameters and align multiple viewpoints in a unified 3D coordinate system.</li>
+              <li>Combined <strong>MediaPipe 2D keypoints</strong>, OpenCV, <strong>RANSAC</strong> outlier rejection, and <strong>Ceres Solver bundle adjustment</strong> with automated keyframe selection and confidence-weighted optimization.</li>
+              <li>Curated a dedicated multi-view test dataset to evaluate calibration error tolerances and containerized the entire pipeline with <strong>Docker</strong> for reproducible client deployment and handover.</li>
+            </ul>
+          </div>
+        </li>
+
+        <li>
+          <time>Jan. 2025 – Present</time>
+          <div class="tl-body">
+            <p class="tl-title">Undergraduate Researcher</p>
+            <p class="tl-org">
+              <strong>AITech Lab, Ho Chi Minh City University of Technology (HCMUT) – VNU-HCM</strong>
+            </p>
+            <p class="tl-note">Advisor: Dr. Duc Dung Nguyen</p>
+            <ul class="tl-bullets">
+              <li>Investigated performance degradation mechanisms of monocular 3D detectors under unseen camera intrinsics and formulated continuous log-normalized focal length manifold encoding (<strong>MonoBEN</strong>).</li>
+              <li>Conducted extensive cross-focal and standard benchmark evaluations on KITTI and authored a first-author paper accepted at <strong>IEEE RIVF 2026</strong>.</li>
+            </ul>
+          </div>
+        </li>
+
+      </ul>
+    </section>
+
+    <!-- ───────── EDUCATION & AWARDS ───────── -->
+    <section id="education" class="section">
+      <h2>Education</h2>
+      <ul class="timeline">
+        <li class="is-current">
+          <time>2023 – 2027 (Expected)</time>
+          <div class="tl-body">
+            <p class="tl-title">B.Sc. in Computer Science — Honors Program</p>
+            <p class="tl-org">
+              <a href="https://hcmut.edu.vn/" target="_blank" rel="noopener noreferrer">Ho Chi Minh City University of Technology (HCMUT) – VNU-HCM</a>
+              <span class="tl-sep">·</span> Vietnam
+            </p>
+            <p class="tl-note">GPA: <strong>3.8 / 4.0</strong> (8.88 / 10.0)</p>
+            <ul class="tl-bullets">
+              <li><strong>Relevant Coursework:</strong> Machine Learning, Deep Learning, Computer Vision, Computer Graphics, Linear Algebra, Probability &amp; Statistics, Data Structures &amp; Algorithms.</li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+
+      <h2 style="margin-top: 28px;">Honors &amp; Awards</h2>
+      <ul class="awards">
+        <li class="is-key">
+          <time>Oct. 2026</time>
+          <div class="aw-body">
+            <p class="aw-title"><i class="fas fa-award"></i>First-Author Paper Accepted at IEEE RIVF 2026</p>
+            <p class="aw-org">IEEE International Conference on Computing and Communication Technologies (RIVF)</p>
+          </div>
+          <span class="aw-rank">First Author</span>
+        </li>
+        <li class="is-key">
+          <time>2023 – 2026</time>
+          <div class="aw-body">
+            <p class="aw-title"><i class="fas fa-award"></i>Academic Excellence Scholarship (3 Semesters)</p>
+            <p class="aw-org">Ho Chi Minh City University of Technology (HCMUT) – VNU-HCM</p>
+          </div>
+          <span class="aw-rank">Merit Scholarship</span>
+        </li>
+        <li>
+          <time>2023 – Present</time>
+          <div class="aw-body">
+            <p class="aw-title">Computer Science Honors Program</p>
+            <p class="aw-org">Faculty of Computer Science and Engineering, HCMUT – VNU-HCM</p>
+          </div>
+          <span class="aw-rank">GPA 3.8 / 4.0</span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ───────── TECHNICAL SKILLS ───────── -->
+    <section id="skills" class="section">
+      <h2>Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3><i class="fas fa-code"></i>Programming &amp; Frameworks</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">PyTorch</span>
+            <span class="skill-tag">C++</span>
+            <span class="skill-tag">TensorFlow</span>
+            <span class="skill-tag">NumPy &amp; SciPy</span>
+            <span class="skill-tag">OpenCV</span>
+            <span class="skill-tag">SQL</span>
+            <span class="skill-tag">Linux Shell</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <h3><i class="fas fa-cube"></i>Perception &amp; 3D Geometry</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Monocular &amp; Multi-View 3D Detection</span>
+            <span class="skill-tag">Viewpoint-Agnostic 3D Perception</span>
+            <span class="skill-tag">2D/3D Object Detection</span>
+            <span class="skill-tag">Camera Intrinsics / Extrinsics</span>
+            <span class="skill-tag">Multi-Camera Calibration</span>
+            <span class="skill-tag">Projective Geometry</span>
+            <span class="skill-tag">Human Pose Estimation</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <h3><i class="fas fa-brain"></i>Models &amp; Evaluation</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Transformers &amp; ViT</span>
+            <span class="skill-tag">CNNs</span>
+            <span class="skill-tag">YOLO26</span>
+            <span class="skill-tag">RT-DETRv2-S</span>
+            <span class="skill-tag">BERT / DistilBERT</span>
+            <span class="skill-tag">KITTI Benchmark</span>
+            <span class="skill-tag">AP3D / APBEV / mAP</span>
+            <span class="skill-tag">Ablation &amp; Latency Analysis</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <h3><i class="fas fa-tools"></i>Simulation, Data &amp; Engineering</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">OpenGL Simulation</span>
+            <span class="skill-tag">Synthetic Data Generation</span>
+            <span class="skill-tag">COCO / YOLO Annotations</span>
+            <span class="skill-tag">Ceres Solver</span>
+            <span class="skill-tag">MediaPipe</span>
+            <span class="skill-tag">MMDetection3D</span>
+            <span class="skill-tag">Docker</span>
+            <span class="skill-tag">Git &amp; Weights &amp; Biases</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Quoc Huy Nguyen · Built for GitHub Pages · Last updated <span id="updated"></span></p>
+  </footer>
+
+  <!-- Lightbox -->
+  <div id="lightbox" role="dialog" aria-modal="true" aria-label="Enlarged figure" hidden>
+    <div class="lightbox-backdrop"></div>
+    <div class="lightbox-frame">
+      <button id="lightbox-close" aria-label="Close"><i class="fas fa-xmark" aria-hidden="true"></i></button>
+      <img id="lightbox-img" src="" alt="">
+    </div>
+  </div>
+
+  <script>
+    // ── Footer dates ─────────────────────────────
+    const now = new Date();
+    document.getElementById('year').textContent = now.getFullYear();
+    document.getElementById('updated').textContent =
+      now.toLocaleString('en-US', { year: 'numeric', month: 'short' });
+
+    // ── Theme toggle ─────────────────────────────
+    const html = document.documentElement;
+    const themeToggle = document.getElementById('theme-toggle');
+    const themeIcon = themeToggle.querySelector('i');
+    function setIcon(t) { themeIcon.className = t === 'dark' ? 'fas fa-sun' : 'fas fa-moon'; }
+    setIcon(html.getAttribute('data-theme'));
+    themeToggle.addEventListener('click', () => {
+      const next = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      html.setAttribute('data-theme', next);
+      localStorage.setItem('theme', next);
+      setIcon(next);
+    });
+
+    // ── Scrollspy ────────────────────────────────
+    const navLinks = document.querySelectorAll('.nav-links a');
+    const sectionMap = new Map();
+    navLinks.forEach(link => {
+      const id = link.getAttribute('href').slice(1);
+      const sec = document.getElementById(id);
+      if (sec) sectionMap.set(sec, link);
+    });
+    const sections = Array.from(sectionMap.keys());
+    const MARKER_Y = 110;
+    function updateActive() {
+      let active = sections[0];
+      for (const sec of sections) {
+        if (sec.getBoundingClientRect().top - MARKER_Y <= 0) {
+          active = sec;
+        } else {
+          break;
+        }
+      }
+      const activeLink = sectionMap.get(active);
+      if (!activeLink || activeLink.classList.contains('active')) return;
+      navLinks.forEach(l => l.classList.remove('active'));
+      activeLink.classList.add('active');
+    }
+    window.addEventListener('scroll', updateActive, { passive: true });
+    window.addEventListener('resize', updateActive);
+    updateActive();
+
+    // ── Nav border on scroll ─────────────────────
+    const nav = document.querySelector('.nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 8);
+    }, { passive: true });
+
+    // ── Lightbox ─────────────────────────────────
+    const lb = document.getElementById('lightbox');
+    const lbImg = document.getElementById('lightbox-img');
+    const lbClose = document.getElementById('lightbox-close');
+    function openLightbox(src, alt) {
+      lbImg.src = src;
+      lbImg.alt = alt || '';
+      lb.hidden = false;
+      requestAnimationFrame(() => lb.classList.add('open'));
+      document.body.style.overflow = 'hidden';
+    }
+    function closeLightbox() {
+      lb.classList.remove('open');
+      setTimeout(() => { lb.hidden = true; lbImg.src = ''; }, 220);
+      document.body.style.overflow = '';
+    }
+    document.querySelectorAll('[data-lightbox]').forEach(el => {
+      el.addEventListener('click', e => {
+        e.preventDefault();
+        const img = el.querySelector('img');
+        openLightbox(el.getAttribute('href'), img ? img.alt : '');
+      });
+    });
+    lbClose.addEventListener('click', closeLightbox);
+    lb.querySelector('.lightbox-backdrop').addEventListener('click', closeLightbox);
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape' && !lb.hidden) closeLightbox();
+    });
+  </script>
+</body>
+
+</html>
